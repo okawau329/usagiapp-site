@@ -87,3 +87,11 @@ footer { padding:34px 0 50px; border-top:1px solid var(--line); color:var(--mute
   .footer-row { flex-direction:column; }
 }
 @media (prefers-reduced-motion:reduce) { html { scroll-behavior:auto; } }
+
+.hero-visual img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+}
